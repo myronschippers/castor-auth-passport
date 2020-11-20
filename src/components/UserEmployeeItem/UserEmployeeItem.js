@@ -4,7 +4,7 @@ class UserEmployeeItem extends Component {
   render() {
     return (
       <li>
-        {this.props.employee.name}, {this.props.employee.role}
+        {this.props.employee.username}, {this.props.employee.label}
       </li>
     );
   }

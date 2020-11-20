@@ -1,4 +1,3 @@
-
 const express = require('express');
 require('dotenv').config();
 
@@ -10,6 +9,8 @@ const passport = require('./strategies/user.strategy');
 
 // Route includes
 const userRouter = require('./routes/user.router');
+const rolesRouter = require('./routes/roles.router');
+const employeesRouter = require('./routes/employees.router');
 
 // Body parser middleware
 app.use(bodyParser.json());
@@ -24,6 +25,8 @@ app.use(passport.session());
 
 /* Routes */
 app.use('/api/user', userRouter);
+app.use('/api/roles', rolesRouter);
+app.use('/api/employees', employeesRouter);
 
 // Serve static files
 app.use(express.static('build'));
