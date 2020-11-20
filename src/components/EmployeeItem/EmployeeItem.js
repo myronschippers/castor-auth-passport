@@ -7,7 +7,7 @@ function EmployeeItem(props) {
       <td>{props.employee.role}</td>
       <td>{props.employee.average_review}</td>
       <td>
-        <button>View Comments</button>
+        <button>All Reviews</button>
       </td>
     </tr>
   );
