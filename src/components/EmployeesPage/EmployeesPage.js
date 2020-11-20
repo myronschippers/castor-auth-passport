@@ -7,7 +7,7 @@ class EmployeesPage extends Component {
   render() {
     return (
       <div>
-        <h2>All Employees</h2>
+        <h2>Employee Review</h2>
         <EmployeeList />
       </div>
     );

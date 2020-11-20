@@ -10,7 +10,8 @@ function EmployeeList(props) {
         <tr>
           <th>Name</th>
           <th>Role</th>
-          <th>Average Review</th>
+          <th>Comments</th>
+          <th>Rating</th>
           <th></th>
         </tr>
       </thead>
